@@ -1,7 +1,8 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import Routes from './src/routes/tab.routes';
+import 'react-native-gesture-handler';
+import Routes from './src/routes';
 import { ThemeProvider } from 'styled-components';
 import { basicTheme } from './src/theme';
 
