@@ -9,3 +9,7 @@ Mobile store is a mobile app to show products and allow you to add products in t
 2. Products will be obtained through an API;
 3. In the cart, allow to increase, decrease and remove products;
 4. Testing routine with jest and cypress.
+
+## See the project
+
+<img src="https://imgur.com/l6feKxB" width="300" height="633"/>

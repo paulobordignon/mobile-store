@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { KeyboardAvoidingView, View, Platform, FlatList, Alert } from 'react-native';
+import { Alert, FlatList } from 'react-native';
 import api from '../../requests/api';
 import {
   StyledTextLoad,
@@ -20,7 +20,7 @@ export const Home: React.FC = () => {
         setProducts(response.data);
       }).
       catch(() => {
-        console.log('error get products');
+        Alert.alert('Erro', 'Ocorreu um erro ao listar os produtos');
       });
 
     setLoading(false);
